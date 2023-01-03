@@ -1,0 +1,116 @@
+.App{
+    height: 100vh;
+    width: 100vw;
+}
+.Events{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+}
+.navBar{
+    height: 10vh;
+    font-size: larger;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#discription{
+    height: 10vh;
+    width: 30vw;
+}
+#name{
+    width: 30vw;
+}
+.navBar span{
+    color: azure;
+    font-size: 1em;
+}
+.EventsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.EventsList p{
+    font-size: 1em;
+    padding: 2vw;
+    border: black solid 2px;
+    border-radius: 3px;
+   
+}
+.EventsList button{
+    font-size: 0.5em;
+    margin-left: 1vw;
+}
+.EventsForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+}
+
+.EventsForm input{
+    text-align: center;
+}
+
+#eventName{
+    text-decoration: none;
+    color: black;
+}
+#eventManeger{
+    font-size: 1.5em;
+}
+.navBarFont{
+    text-decoration: none;
+}
+.details b{
+    font-size: 1.5vw;
+}
+.details{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+   flex-direction: column;
+   
+}
+.details h1{
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.detailsInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.detailsInfo p{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.detailsInfo b{
+    font-size: 2em;
+}
+.detailsInfo li{
+    
+    font-size: 1.5em;
+}
+.details input{
+    width: 10vw;
+}
+.details button{
+    width: 10vw;
+}
+.dateAndTime{
+    width: 12vw;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+
