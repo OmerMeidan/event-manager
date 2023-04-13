@@ -3,8 +3,10 @@ import { useParams } from "react-router-dom"
 import { useContext } from 'react';
 import {ContextValue} from "../App"
 function EventDetails() {
+    
     const params=useParams()
     const {change}=useContext(ContextValue)
+   
     return (
         <div className='details'>
             <div><h1>Event Details</h1></div>
